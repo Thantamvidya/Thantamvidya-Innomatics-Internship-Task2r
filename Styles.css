@@ -1,0 +1,58 @@
+* {
+    font-family: cursive;
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://cdn.shopify.com/s/files/1/0707/1304/9407/files/Roasted_coffee_bean_and_powder_with_a_cup_of_fragrance_coffee.png?v=1674228602");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.navbar{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding-left:20px;
+    padding-right:20px;
+    background-color:transparent;
+    font-family:cursive;
+   
+}
+.left-nav, .right-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.item {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+.item:hover {
+    color: brown;
+}
+.main{
+    padding-left: 40px;
+    padding-top: 100px;
+}
+footer{
+    text-align: center;
+    background: transparent;
+    margin-top: auto;
+    padding: 1rem 0;
+}
